@@ -17,7 +17,7 @@ namespace :notifications do
       # Loop indefinitely
     loop do
       # Wait for 5 minutes
-      sleep(300)
+      sleep(7200)
 
         # Get a random message
         message = messages.sample
