@@ -27,6 +27,8 @@ Clone the repository to your local machine
 
 1. Clone the repository or download the ZIP file and extract it.
 
+https://github.com/HasithaEdiriweera/habit-app
+
 2. Open a terminal and navigate to the project directory.
 
 3. Run the command npm install to install the required dependencies.
@@ -45,11 +47,11 @@ Each 2 hours of time notification is sent to the Slack channel via webhook integ
 
 # Configuration
 
-Fixed token configured as an environment variable AUTHENTICATION_TOKEN
+- Fixed token configured as an environment variable 'AUTHENTICATION_TOKEN'
 
-Slack webhook integration
+- Slack webhook integration
 
-To configure Slack webhook integration, follow these steps:
+- To configure Slack webhook integration, follow these steps:
 
 1. Create a new Slack app and enable incoming webhooks.
 
@@ -57,7 +59,7 @@ To configure Slack webhook integration, follow these steps:
 
 3. Set the webhook URL as an environment variable named SLACK_WEBHOOK_URL.
 
-To run the slack notifications : rake notifications:send_random_notification
+- To run the slack notifications : rake notifications:send_random_notification
 
 # Rails configuration
 
