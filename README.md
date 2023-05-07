@@ -3,7 +3,7 @@
 This is a simple application that demonstrates how to integrate React frontend with a Rails backend, using Slack webhook integration to send notifications, and testing the backend using Minitest.
 Rails with Rake, Slack notifiern and Minites
 
-Prerequisites
+# Prerequisites
 
 - Ruby 3.0.2 or later
 
@@ -13,7 +13,7 @@ Prerequisites
 
 - NPM 6.14 or later
 
-BackEnd Installation
+# BackEnd Installation
 
 Clone the repository to your local machine
 
@@ -23,7 +23,7 @@ Clone the repository to your local machine
 
 3. Start the Rails server by running rails s
 
-FrontEnd Installation
+# FrontEnd Installation
 
 1. Clone the repository or download the ZIP file and extract it.
 
@@ -37,13 +37,13 @@ FrontEnd Installation
 
 6. Open your web browser and go to http://localhost:3000.
 
-USAGE
+# USAGE
 
 The application has a simple user interface for creating and managing habits. You can create a new habit by clicking the "Add Habit" button, and delete/edit a habit by clicking the "Delete" or "Edit" icon in React frontend.
 
 Each 2 hours of time notification is sent to the Slack channel via webhook integration.
 
-Configuration
+# Configuration
 
 Fixed token configured as an environment variable AUTHENTICATION_TOKEN
 
@@ -59,18 +59,20 @@ To configure Slack webhook integration, follow these steps:
 
 To run the slack notifications : rake notifications:send_random_notification
 
-Rails configuration
+# Rails configuration
 
 The Rails server runs on port 3001 by default. To change the port, set the PORT environment variable.
 
 The Rails application uses a PostgreSQL database by default. To use a different database, update the database.yml file.
 
-Testing
+# Testing
+
 The backend is tested using Minitest. To run the tests, use the following command:
 
 rake test
 
-References
+# References
+
 React (https://reactjs.org/)
 Chakra UI (https://chakra-ui.com/)
 Axios (https://axios-http.com/)
