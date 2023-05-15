@@ -25,7 +25,7 @@ module HabbitAppBe
 
     # Add SLACK_WEBHOOK_URL
     config.before_configuration do
-      ENV['SLACK_WEBHOOK_URL'] = 'https://hooks.slack.com/services/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'
+      ENV['SLACK_WEBHOOK_URL'] = 'your slack webhook url'
       ENV['AUTHENTICATION_TOKEN'] = 'my_secret_token'
     end
 
